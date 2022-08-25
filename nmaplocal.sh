@@ -107,13 +107,12 @@ cat << 'EOF'
         <h3>Carné: 5390-18-10587</h3>
 EOF
 echo "<pre>$(uname -mrs)</pre>"
-cat << 'EOF'
+cat << 'EOF' 
         <hr>
+
       </div>
     </div>
   </div>
 </body>
-
 </html>
 EOF
-

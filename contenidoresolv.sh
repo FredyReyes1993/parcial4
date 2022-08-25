@@ -95,7 +95,7 @@ cat << 'EOF'
                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">ps $$</span> </a>
             </li>
           </ul>
-
+          
           <hr>
 
         </div>
@@ -109,11 +109,13 @@ EOF
 echo "<pre>$(uname -mrs)</pre>"
 cat << 'EOF'
         <hr>
+EOF
+echo "<pre>$(cat /etc/resolv.conf)</pre>"
+cat << 'EOF'
+
       </div>
     </div>
   </div>
 </body>
-
 </html>
 EOF
-

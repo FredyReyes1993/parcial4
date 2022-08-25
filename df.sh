@@ -96,6 +96,7 @@ cat << 'EOF'
             </li>
           </ul>
 
+
           <hr>
 
         </div>
@@ -105,15 +106,18 @@ cat << 'EOF'
       <div class="col py-3">
         <h3>Nombre: Fredy Estuardo Reyes Del Cid</h3>
         <h3>Carné: 5390-18-10587</h3>
+        <h3>Comando df -h</h3>
 EOF
 echo "<pre>$(uname -mrs)</pre>"
-cat << 'EOF'
+cat << 'EOF' 
         <hr>
+EOF
+echo "<pre>$(df -h)</pre>"
+cat << 'EOF'
+
       </div>
     </div>
   </div>
 </body>
-
 </html>
 EOF
-

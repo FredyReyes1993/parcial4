@@ -105,15 +105,17 @@ cat << 'EOF'
       <div class="col py-3">
         <h3>Nombre: Fredy Estuardo Reyes Del Cid</h3>
         <h3>Carné: 5390-18-10587</h3>
+        <h3>Muetra la versión del sistema operativo</h3>
+EOF
+echo "<pre>$(uname -mrs)</pre>"
+cat << 'EOF'        
+        <hr>
 EOF
 echo "<pre>$(uname -mrs)</pre>"
 cat << 'EOF'
-        <hr>
       </div>
     </div>
   </div>
 </body>
-
 </html>
 EOF
-
