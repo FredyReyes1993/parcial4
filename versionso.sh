@@ -83,7 +83,7 @@ cat << 'EOF'
                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">versión del kernel</span> </a>
             </li>
             <li>
-              <a href="version.sh" class="nav-link px-0 align-middle">
+              <a href="versionso.sh" class="nav-link px-0 align-middle">
                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">versión del sistema operativo</del></span> </a>
             </li>
             <li>

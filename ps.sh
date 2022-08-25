@@ -83,7 +83,7 @@ cat << 'EOF'
                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">versión del kernel</span> </a>
             </li>
             <li>
-              <a href="version.sh" class="nav-link px-0 align-middle">
+              <a href="versionso.sh" class="nav-link px-0 align-middle">
                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">versión del sistema operativo</del></span> </a>
             </li>
             <li>
@@ -105,6 +105,7 @@ cat << 'EOF'
       <div class="col py-3">
         <h3>Nombre: Fredy Estuardo Reyes Del Cid</h3>
         <h3>Carné: 5390-18-10587</h3>
+        <h3>Muestra ps $$</h3>
 EOF
 echo "<pre>$(uname -mrs)</pre>"
 cat << 'EOF'  
